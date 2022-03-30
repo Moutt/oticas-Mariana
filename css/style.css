@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    min-width: 1074px;
+}
+a {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    font-family: DejaVu Sans Mono, monospace;
+}
+.cabeça {
+    background-color: #000000f3;
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+#ftlogo {
+    position: absolute;
+    top: 0;
+    border-radius: 80px;
+    border: inset white 2px;
+    height: 105px;
+    margin: 10px;
+}
+.infocabeca {
+    float: right;
+    margin-right: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    border: outset rgb(158, 143, 116);
+    border-radius: 30px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    display: inline;
+}
+.infocabeca:hover {
+    background-color: #000000;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+#infoscabeca {
+    width: 100%;
+    display: block;
+    right: auto;
+}
+#infosinicio {
+    display: flex;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+#infoinicio1 {
+    margin: auto;
+}
+.orçamento {
+    color: white;
+    font-family: OCR A Std, monospace;
+    font-size: 30px;
+    line-height: 95px;
+    text-align: center;
+}
+#frentedaloja {
+    height: 550px;
+    width: 500px;
+}
+#zap {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+#info2 {
+    display: flex;
+}
+.olho {
+    margin: 50px;
+}
+#textolho {
+    border: double black;
+    border-right: none;
+    border-left: none;
+    border-radius: 30px;
+}
+#imgolho {
+    height: 450px;
+    box-shadow: 0 0 1em black;
+}
+#melhor {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    line-height: 60px;
+}
+#divgaleria {
+    display: flex;
+    margin-top: 100px;
+}
+#galeria {
+    margin: auto;
+    display: flex;
+}
+.linhagaleria {
+    width: 200px;
+    height: min-content;
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#galeriatitle {
+    font-size: 40px;
+}
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 500px;
+    width: 550px;
+    margin: auto;
+}
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.fotocilindro {
+    width: 550px;
+    height: 550px;
+}
+#localmini {
+    margin: auto;
+    display: flex;
+}
+#minifts {
+    margin: auto;
+}
+.fotocilindro2 {
+    margin: 50px;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+}
+footer {
+    margin-top: 80px;
+    height: 280px;
+    background-color: #000000f3;
+}
+.textfoot {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+#caixafoot {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.titlefoot {
+    color: white;
+    font-weight: bold;
+    font-family: Andale Mono, monospace;
+    text-align: center;
+}
+#botãofoot {
+    display: block;
+    text-align: center;
+    background-color: black;
+    border: solid white 2px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: OCR A Std, monospace;
+}
+@media screen and (max-width: 600px) {
+    #info2 {
+        display: block;
+    }
+}
