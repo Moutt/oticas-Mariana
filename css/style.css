@@ -11,7 +11,7 @@ a {
     text-decoration: none;
     font-family: DejaVu Sans Mono, monospace;
 }
-.cabeça {
+.cabeca {
     background-color: #000000f3;
     height: 50px;
     padding-top: 40px;
@@ -57,7 +57,7 @@ a {
 #infoinicio1 {
     margin: auto;
 }
-.orçamento {
+.orcamento {
     color: white;
     font-family: OCR A Std, monospace;
     font-size: 30px;
@@ -167,7 +167,7 @@ footer {
     font-family: Andale Mono, monospace;
     text-align: center;
 }
-#botãofoot {
+#botaofoot {
     display: block;
     text-align: center;
     background-color: black;
